@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+}
+
+#login
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 8%;
+    color: white;
+
+}
+
+input {
+    padding: 8%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.inputSubmit {
+background-color: dodgerblue;
+border: none;
+padding: 5%;
+width: 100%;
+border-radius: 8%;
+color: white;
+font-size: 90%;
+
+}
+
+.inputSubmit:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+#box {
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 8%;
+    padding: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+a:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+
+}
